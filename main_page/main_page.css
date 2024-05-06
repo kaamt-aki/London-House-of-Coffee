@@ -1,8 +1,11 @@
 /* General Styles */
 *{
     background-color: black;
-    margin: 3px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust:100%
+}
+.logo img{
+    hrem: 4px;
 }
