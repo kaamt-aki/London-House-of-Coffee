@@ -1,1 +1,5 @@
-test
+/* General Styles */
+*{
+    background-color: black;
+    margin: 3px;
+}
