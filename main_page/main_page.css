@@ -1,15 +1,87 @@
 /* General Styles */
 *{
-    background-color: black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 .logo img{
-    hrem: 4px;
+    height: 6.8rem;
+    padding-top:  15px;
 }
 
 .navbar{
-    background-color: burlywood;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navlist{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navlist li{
+    list-style: none;
+}
+.navlist  li{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 0.08rem;   
+}
+
+.hero{
+    display: flex;
+}
+
+.hero .left{
+    background-color: bisque;
+}
+
+.hero .right{
+    background-color: bisque;
+}
+
+.hero .hero_split{
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.navlist .slider{
+    background-color: rgba(115, 73, 30, 0.45);
+    width: 6rem;
+    height: 5rem;
+    position: absolute;
+    top: 10%;
+    right: 430px;
+    border-top: .3rem;
+    border-bottom: .3rem;
+    border-radius:3rem;
+    backdrop-filter: blur(.5rem);
+    z-index: -1;
+}
+
+.navlist li:nth-child(2):hover ~ .slider{
+    right: 315px;;
+}
+
+.navlist li:nth-child(3):hover ~ .slider{
+    right: 210px;;
+}
+
+.navlist li:nth-child(4):hover ~ .slider{
+    right: 100px;;
+}
+
+.navlist li:nth-child(5):hover ~ .slider{
+    right: -7px;;
 }
