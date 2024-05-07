@@ -43,6 +43,7 @@
 
 .hero .left{
     background-color: bisque;
+    padding-left: 3rem;
 }
 
 .hero .right{
@@ -53,6 +54,7 @@
     width: 50%;
     min-height: 100vh;
     display: flex;
+    align-items: center;
 }
 
 .navlist .slider{
@@ -67,6 +69,7 @@
     border-radius:3rem;
     backdrop-filter: blur(.5rem);
     z-index: -1;
+    transition: .5s ease-in-out;
 }
 
 .navlist li:nth-child(2):hover ~ .slider{
@@ -83,4 +86,8 @@
 
 .navlist li:nth-child(5):hover ~ .slider{
     right: -7px;;
+}
+
+.content{
+
 }
