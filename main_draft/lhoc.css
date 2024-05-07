@@ -36,7 +36,7 @@ img.primary_logo {
     max-height: 130px;
     width: auto;
     background-color: rgba(0, 0, 0, 0.575);
-    z-index: 1; /* Ensuring the logo is above other content */
+    z-index: 5; /* Ensuring the logo is above other content */
 }
 
 .nav_container {
@@ -97,5 +97,23 @@ img.primary_logo {
     font-style: italic;
 }
 
-.Hallmark, .line01, .line02, .line03, .line04{
+.Claim_Info {
+    color: white;
+    display: flex; /* Using flexbox to align elements in a row */
+    justify-content: space-between; /* Ensuring equal space between elements */
+    max-width: 80%; /* Adjust as needed */
+    margin: 0 auto; /* Centering the container */
+    position: relative;
+    top: 180px;
+}
+
+.A_O, .H_G, .S_O, .F_G_S{
+    background-color: #071810;
+    padding: 15px;
+}
+
+.P {
+    font-style: italic;
+    max-width: 150px;
+    margin: 15px auto;
 }
