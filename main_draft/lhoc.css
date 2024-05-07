@@ -1,0 +1,101 @@
+/* CSS for London House of Coffee */
+
+@font-face {
+    font-family: Didot;
+    src: url(/main_draft/assets/didot-2/Didot.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Didot, sans-serif;
+}
+
+body {
+    width: 97%;
+    margin: 0 auto;
+    background-image: url(/main_draft/assets/images/bckg.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+header {
+    position: relative; /* Making the header relatively positioned */
+}
+
+/* Primary logo */
+img.primary_logo {
+    position: absolute; /* Positioning the logo absolutely */
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 130px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.575);
+    z-index: 1; /* Ensuring the logo is above other content */
+}
+
+.nav_container {
+    position: absolute;
+    top: 67px;
+    background-color: none;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Making the nav container relatively positioned */
+    z-index: 0; /* Ensuring the nav is behind the logo */
+}
+
+.left_side, .right_side {
+    list-style-type: none;
+}
+
+/* Bar separating nav elements */
+.left_side li, .right_side li {
+    display: inline-block;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.left_side li a, .right_side li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 13pt;
+    color: white;
+    padding: 14px 16px;
+    font-weight: bold;
+}
+
+.left_side li a:hover, .right_side li a:hover {
+     background-color: rgba(0, 0, 0, 0.575);
+}
+
+.Hallmark{
+    color: white;
+    position: relative;
+    top: 125px;
+}
+
+.line01{
+    font-size: 67px;
+    font-weight: bold;
+}
+.line02{
+    font-size: 35px;
+    font-weight: bold;
+}
+.line03, .line04{
+    font-size: 35px;
+    font-weight: 50;
+    font-style: italic;
+}
+
+.Hallmark, .line01, .line02, .line03, .line04{
+}
