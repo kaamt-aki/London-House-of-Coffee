@@ -12,9 +12,14 @@
     font-family: Didot, sans-serif;
 }
 
+nav a[href^="#"] {
+    scroll-behavior: smooth;
+    transition-duration: 500ms; /* Adjust transition duration as needed */
+}
+
 body {
-    width: 97%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
     background-image: url(/main_draft/assets/images/bckg.png);
     background-repeat: no-repeat;
     background-position: center; 
@@ -24,6 +29,7 @@ body {
 }
 
 header {
+    padding: 0px 10px 0 10px;
     position: relative; /* Making the header relatively positioned */
 }
 
@@ -77,6 +83,10 @@ img.primary_logo {
      background-color: rgba(0, 0, 0, 0.575);
 }
 
+.landing_page{
+    height: 100vh;
+}
+
 .Hallmark{
     color: white;
     position: relative;
@@ -103,6 +113,7 @@ img.primary_logo {
     justify-content: space-between; /* Ensuring equal space between elements */
     max-width: 80%; /* Adjust as needed */
     margin: 0 auto; /* Centering the container */
+    margin-bottom: 0;
     position: relative;
     top: 180px;
     z-index: 4;
@@ -118,4 +129,17 @@ img.primary_logo {
     font-style: italic;
     max-width: 150px;
     margin: 20px auto;
+}
+
+/*          LANDING PAGE ENDS           */
+
+/*          SERVICES SECTION CSS STARTS           */
+
+.services_page {
+    height: 100vh;
+    background-image: url(/main_draft/assets/images/bright_bckgDesign.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
 }

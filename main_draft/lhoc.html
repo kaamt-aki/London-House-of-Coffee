@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>London House of Coffee</title>
     <link rel="stylesheet" href="lhoc.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -12,7 +17,7 @@
 
 <nav class="nav_container">
     <ul class="left_side">
-        <li><a href="">SERVICES</a></li>
+        <li><a href="#services">SERVICES</a></li>
         <li>|</li>
         <li><a href="">MENUS</a></li>
         <li>|</li>
@@ -30,6 +35,8 @@
     </ul>
 </nav>
     </header>
+
+<section class="landing_page">
 
     <div class="Hallmark">
         <h1 class="line01">7 Day Fresh</h1>
@@ -60,6 +67,29 @@
         </div>
         
     </div>
-    
+
+</section>
+
+    <!--            LANDIN PAGE ENDS            -->
+
+    <!--            SERVICES SECTION START            -->
+
+    <section class="services_page" id="services">
+
+        <div class="services_content">
+            <h1>Our Services</h1>
+            <p>Here are some of the services we offer:</p>
+
+        </div>
+
+    </section>
+
+
 </body>
 </html>
+
+<script>
+    // Adjust smooth scroll speed
+    document.documentElement.style.scrollBehavior = "smooth";
+    document.documentElement.style.scrollBehavior = "smooth 5000ms"; // Adjust the duration as needed
+</script>
