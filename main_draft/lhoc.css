@@ -109,8 +109,9 @@ img.primary_logo {
 }
 
 .A_O, .H_G, .S_O, .F_G_S{
-    background-color: #071810
-    padding: 15px;
+    width: 240px;
+    background-color: #071810;
+    padding-top: 10px;
 }
 
 .P {
