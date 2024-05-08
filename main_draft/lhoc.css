@@ -14,7 +14,7 @@
 }
 
 html{
-    scroll-snap-type:proximity ;
+    scroll-behavior: smooth ;
 }
 
 body {
@@ -48,8 +48,13 @@ img.primary_logo {
     transform: translateX(-50%);
     max-height: 130px;
     width: auto;
-    background-color: rgba(0, 0, 0, 0.575);
-    z-index: 5; /* Ensuring the logo is above other content */
+    /*
+    background-color: rgba(0, 0, 0, 0.575); */
+    z-index: 11; /* Ensuring the logo is above other content */
+}
+
+.primary_logo:hover{
+    background-color: rgba(0, 0, 0, 0.350);
 }
 
 .nav_container {
@@ -60,6 +65,19 @@ img.primary_logo {
     justify-content: space-between;
     position: relative; /* Making the nav container relatively positioned */
     z-index: 0; /* Ensuring the nav is behind the logo */
+}
+
+.LPfooter{
+    background-color: none;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 200px 20px 0 20px;
+}
+
+.FLS a, .FRS a{
+    text-decoration: none;
 }
 
 .left_side, .right_side {
@@ -80,14 +98,15 @@ img.primary_logo {
     width: 100%;
     height: 100%;
     font-size: 13pt;
-    color: white;
     padding: 14px 16px;
     font-weight: bold;
 }
 
-.left_side li a:hover, .right_side li a:hover {
+.left_side li a:hover, .right_side li a:hover{
      background-color: rgba(0, 0, 0, 0.575);
 }
+
+/*          HALLMARK            */
 
 .Hallmark{
     position: relative;
@@ -107,6 +126,8 @@ img.primary_logo {
     font-weight: 50;
     font-style: italic;
 }
+
+/*          CLAIM INFO          */
 
 .Claim_Info {
     color: white;
@@ -134,7 +155,7 @@ img.primary_logo {
 
 /*          LANDING PAGE ENDS           */
 
-        /*  SERVICES    */
+/*          SERVICES            */
 
 .services_page {
     height: 100vh;
@@ -142,16 +163,33 @@ img.primary_logo {
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
+    background-color: rgba(41, 1, 0, 0.575);
 }
 
 .SH1{
-    font-size: 40px;
+    font-size: 30px;
+    background-color: #290100;
 }
 
 .services_list{
-    font-size: 28px;
+    list-style-type: none;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 2% 0 2% 10%;
     text-align: left;
 }
+
+.services_list a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    z-index: 10;
+}
+
+.services_list a:hover {
+    background-color: rgba(41, 1, 0, 0.575);
+}
+
 
         /*  MENUS    */
 
@@ -161,6 +199,11 @@ img.primary_logo {
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
+    background-color: rgba(136, 77, 24, 0.450);
+}
+
+.MH1{
+    background-color: rgb(136, 77, 24);
 }
 
         /*  GALLERY    */
@@ -197,6 +240,7 @@ img.primary_logo {
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
+    background-color: #16313893;
 }
 
         /*  CAREERS    */
@@ -207,6 +251,7 @@ img.primary_logo {
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
+    background-color: #44747293;
 }
 
         /*  CONTACT    */
@@ -218,6 +263,7 @@ img.primary_logo {
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
+    background-color: #30303093;
 }
 
 
@@ -227,5 +273,5 @@ img.primary_logo {
 
 .services_content, .menus_content, .gallery_content, .legacy_content, .reservations_content, .careers_content, .contact_content{
     position: relative;
-    top: 155px;
+    padding: 155px 0 0 0;
 }
