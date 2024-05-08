@@ -119,25 +119,3 @@ img.primary_logo {
     max-width: 150px;
     margin: 20px auto;
 }
-
-
-
-.container {
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(4, 230px); /* Set the width of each column to 200px */
-    gap:65px; /* Adjust the spacing between rectangles */
-    position: relative;
-    left: 110px;
-    bottom: 100px;
-}
-
-.rectangle {
-    background-color: #071810;
-    width: 230px;
-    height: 300px;
-    position: relative;
-    bottom: 0;
-    left: 55%; /* Move the rectangle to the center horizontally */
-    transform: translateX(-50%); /* Center align the rectangle */
-}
