@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>London House of Coffee</title>
+    <title id="lhoc_lp">London House of Coffee</title>
     <link rel="stylesheet" href="lhoc.css">
 </head>
 <body>
 
 <section class="landing_page">
     <header>
-        <img src="/main_draft/assets/images/media_logo_nobg.png" class="primary_logo">
+        <a href="lhoc.html"><img src="/main_draft/assets/images/media_logo_nobg.png" class="primary_logo"></a>
 
 <nav class="nav_container">
     <ul class="left_side">
@@ -72,8 +72,27 @@
     <section class="services_page" id="services">
 
         <div class="services_content">
-            <h1>WE PROVIDE "MAINLY COFFEE"</h1>
-            <p>Here are some of the services we offer:</p>
+            <h1 class="SH1">WE PROVIDE "MAINLY COFFEE"</h1>
+            
+            <ul class="services_list">
+                <li>| Brewed Coffee</li>
+                <li>| Espresso Drinks</li>
+                <li>| Tea</li> 
+                <li>| Fruit Drinks</li>
+                <li>| Finger Food</li>
+                <li>| Cakes</li>
+                <br>
+                <li>| Seated Service</li>
+                <li>| To-Go</li>
+                <br>
+                <li>| Seat Reservation</li>
+                <br>
+                <li>| Conference Room</li>
+                <br>
+                <li>| Complimentary Wi-Fi</li>
+                <br>
+                <li>| Adequate Road Side Parking</li>
+            </ul>
 
         </div>
 
@@ -114,8 +133,7 @@
     <section class="legacy_page" id="legacy">
 
         <div class="legacy_content">
-            <h1>LONDON HOUSE OF COFFEE LEGACY</h1>
-            <p></p>
+            <h1 class="LH1">LEGACY</h1>
 
         </div>
 
@@ -168,22 +186,8 @@
 
 
     <!--            ENABLING HIDDEN NAV BAR            -->
-<script>
-{
-    const nav = document.querySelector(".nav_container");
-    let lastScrollY = window.scrollY;
+    
 
-    window.addEventListener("scroll", () => {
-        if (lastScrollY < window.scrollY) {
-            nav.classList.add("nav--hidden")
-        } else{
-            nav.classList.remove("nav--hidden")
-        }
-
-    lastScrollY = window.scrollY;
-    });
-}
-</script>
 
 </body> 
 </html>
