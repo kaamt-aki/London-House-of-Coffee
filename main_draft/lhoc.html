@@ -5,13 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>London House of Coffee</title>
     <link rel="stylesheet" href="lhoc.css">
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
 </head>
 <body>
+
+<section class="landing_page">
     <header>
         <img src="/main_draft/assets/images/media_logo_nobg.png" class="primary_logo">
 
@@ -19,24 +16,22 @@
     <ul class="left_side">
         <li><a href="#services">SERVICES</a></li>
         <li>|</li>
-        <li><a href="">MENUS</a></li>
+        <li><a href="#menus">MENUS</a></li>
         <li>|</li>
-        <li><a href="">GALLERY</a></li> 
+        <li><a href="#gallery">GALLERY</a></li> 
         <li>|</li>
-        <li><a href="">LEGACY</a></li>
+        <li><a href="#legacy">LEGACY</a></li>
     </ul>
 
     <ul class="right_side">
-        <li><a href="">RESERVATIONS</a></li>
+        <li><a href="#reservations">RESERVATIONS</a></li>
         <li>|</li>
-        <li><a href="">CAREERS</a></li>
+        <li><a href="#careers">CAREERS</a></li>
         <li>|</li>
-        <li><a href="">CONTACT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
     </ul>
 </nav>
     </header>
-
-<section class="landing_page">
 
     <div class="Hallmark">
         <h1 class="line01">7 Day Fresh</h1>
@@ -77,19 +72,118 @@
     <section class="services_page" id="services">
 
         <div class="services_content">
-            <h1>Our Services</h1>
+            <h1>WE PROVIDE "MAINLY COFFEE"</h1>
             <p>Here are some of the services we offer:</p>
 
         </div>
 
     </section>
 
+    <!--            SERVICES SECTION ENDS            -->
 
-</body>
-</html>
+    <!--            MENUS SECTION START            -->
 
+    <section class="menus_page" id="menus">
+
+        <div class="menus_content">
+            <h1>MENUS</h1>
+
+        </div>
+
+    </section>
+
+
+    <!--            MENUS SECTION ENDS            -->
+
+    <!--            GALLERY SECTION START            -->
+
+    <section class="gallery_page" id="gallery">
+
+        <div class="gallery_content">
+            <h1>GALLERY</h1>
+
+        </div>
+
+    </section>
+
+
+    <!--            GALLERY SECTION ENDS            -->
+
+    <!--            LEGACY SECTION START            -->
+
+    <section class="legacy_page" id="legacy">
+
+        <div class="legacy_content">
+            <h1>LONDON HOUSE OF COFFEE LEGACY</h1>
+            <p></p>
+
+        </div>
+
+    </section>
+
+
+    <!--            LEGACY SECTION ENDS            -->
+
+    <!--            RESERVATIONS SECTION START            -->
+
+    <section class="reservations_page" id="reservations">
+
+        <div class="reservations_content">
+            <h1>RESERVATIONS</h1>
+            
+        </div>
+
+    </section>
+
+
+    <!--            RESERVATIONS SECTION ENDS            -->
+
+    <!--            CAREERS SECTION START            -->
+
+    <section class="careers_page" id="careers">
+
+        <div class="careers_content">
+            <h1>CAREERS</h1>
+
+        </div>
+
+    </section>
+
+
+    <!--            CAREERS SECTION ENDS            -->
+
+    <!--            CONTACT SECTION START            -->
+
+    <section class="contact_page" id="contact">
+
+        <div class="contact_content">
+            <h1>CONTACT</h1>
+
+        </div>
+
+    </section>
+
+
+    <!--            CONTACT SECTION ENDS            -->
+
+
+    <!--            ENABLING HIDDEN NAV BAR            -->
 <script>
-    // Adjust smooth scroll speed
-    document.documentElement.style.scrollBehavior = "smooth";
-    document.documentElement.style.scrollBehavior = "smooth 5000ms"; // Adjust the duration as needed
+{
+    const nav = document.querySelector(".nav_container");
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener("scroll", () => {
+        if (lastScrollY < window.scrollY) {
+            nav.classList.add("nav--hidden")
+        } else{
+            nav.classList.remove("nav--hidden")
+        }
+
+    lastScrollY = window.scrollY;
+    });
+}
 </script>
+
+</body> 
+</html>

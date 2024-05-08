@@ -10,17 +10,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Didot, sans-serif;
+    color: white;
 }
 
-nav a[href^="#"] {
+html{
     scroll-behavior: smooth;
-    transition-duration: 500ms; /* Adjust transition duration as needed */
 }
 
 body {
     width: 100%;
     margin: 0;
-    background-image: url(/main_draft/assets/images/bckg.png);
+    background-image: url(/main_draft/assets/images/bright_bckg.png);
     background-repeat: no-repeat;
     background-position: center; 
     background-attachment: fixed;
@@ -31,6 +31,11 @@ body {
 header {
     padding: 0px 10px 0 10px;
     position: relative; /* Making the header relatively positioned */
+}
+
+.landing_page{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.575);
 }
 
 /* Primary logo */
@@ -83,10 +88,6 @@ img.primary_logo {
      background-color: rgba(0, 0, 0, 0.575);
 }
 
-.landing_page{
-    height: 100vh;
-}
-
 .Hallmark{
     color: white;
     position: relative;
@@ -137,7 +138,56 @@ img.primary_logo {
 
 .services_page {
     height: 100vh;
-    background-image: url(/main_draft/assets/images/bright_bckgDesign.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.menus_page {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.gallery_page {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.legacy_page {
+    height: 100vh;
+    background-image: url(/main_draft/assets/images/bw_bckg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.reservations_page {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.careers_page {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.contact_page {
+    height: 100vh;
+    background-image: url(/main_draft/assets/images/bckg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
