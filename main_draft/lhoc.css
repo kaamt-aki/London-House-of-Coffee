@@ -88,7 +88,7 @@ header {
     justify-content: space-between;
     position: absolute;
     left: 1%; 
-    bottom: 0%;
+    bottom: 0.5%;
     width: 98%; /* Adjust width to leave space at the sides */
 }
 
@@ -238,23 +238,28 @@ header {
 
 .services_list{
     list-style-type: none;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
-    padding: 0 0 2% 10%;
+    position: relative;
+    padding: 0.7% 60% 0% 2%;
     text-align: left;
+    z-index: 30;
 }
 
 .services_list a{
     text-decoration: none;
     font-weight: bold;
-    margin: 10px;
-    z-index: 10;
 }
 
-.services_list a:hover {
+.SLM a:hover {
     background-color: rgba(41, 1, 0, 0.575);
 }
 
+.CRP{
+    font-size: 13px;
+    position: relative;
+    left: 4%;
+}
 
         /*  MENUS    */
 
@@ -310,8 +315,7 @@ header {
 
 .LH1{
     font-size: 30px;
-    background-color: burlywood;
-    backround-color: rgb(136, 77, 24);
+    background-color: #de900090;
 }
 
 
