@@ -251,7 +251,7 @@ header {
     font-weight: bold;
 }
 
-.SLM a:hover {
+.SLS1 li:hover, .SLS2 li:hover, .SLS3 li:hover, .SLS4 li:hover, .SLS5 li:hover, .SLS6 li:hover {
     background-color: rgba(41, 1, 0, 0.575);
 }
 
@@ -298,7 +298,7 @@ header {
 
 .GH1{
     font-size: 30px;
-
+    background-color: rgb(255, 162, 173);
 }
 
 
