@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Didot, sans-serif;
-    color: white;
+    color: white
 }
 
 html{
@@ -31,6 +31,7 @@ body {
 
 .landing_page{
     height: 100vh;
+    min-height: fit-content;
     background-color: rgba(0, 0, 0, 0.575);
 }
 
@@ -177,7 +178,6 @@ header {
 
 /* CLAIM INFO */
 .Claim_Info {
-    color: white;
     display: flex;
     justify-content: space-between;
     max-width: 80%;
@@ -199,6 +199,10 @@ header {
     font-style: italic;
     max-width: 150px;
     margin: 20px auto;
+}
+
+.AO, .HG, .SO, .FGS, .P, .line01, .line02, .line03, .line04{
+    color: blanchedalmond;
 }
 
 /* Media queries for responsive layout */
@@ -261,7 +265,7 @@ header {
     left: 4%;
 }
 
-        /*  MENUS    */
+/*          MENUS           */
 
 .menus_page {
     height: 100vh;
@@ -286,7 +290,7 @@ header {
     padding: 5% 10% 0 10%;
 }
 
-        /*  GALLERY    */
+/*          GALLERY         */
 
 .gallery_page {
     height: 100vh;
@@ -302,7 +306,7 @@ header {
 }
 
 
-        /*  LEGACY    */
+/*          LEGACY          */
 
 .legacy_page {
     height: 100vh;
@@ -318,8 +322,7 @@ header {
     background-color: #de900090;
 }
 
-
-        /*  RESERVATIONS    */
+/*          RESERVATIONS            */
 
 .reservations_page {
     height: 100vh;
@@ -330,7 +333,7 @@ header {
     background-color: #16313893;
 }
 
-        /*  CAREERS    */
+/*          CAREERS         */
 
 .careers_page {
     height: 100vh;
@@ -341,7 +344,7 @@ header {
     background-color: #44747293;
 }
 
-        /*  CONTACT    */
+/*          CONTACT         */
 
 .contact_page {
     height: 100vh;
@@ -352,10 +355,7 @@ header {
     background-color: rgba(0, 0, 0, 0.575);
 }
 
-
-.services_page, .menus_page, .gallery_page, .legacy_page, .reservations_page, .careers_page, .contact_page{
-}
-
+/*          ALL         */
 
 .services_content, .menus_content, .gallery_content, .legacy_content, .reservations_content, .careers_content, .contact_content{
     position: relative;
