@@ -372,7 +372,7 @@ header {
 .arrow {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 57%;
   margin-top: -35px;
   width: 0;
   height: 0;
@@ -380,15 +380,15 @@ header {
 }
 
 #arrow-left {
-  border-width: 30px 40px 30px 0;
-  border-color: transparent #fff transparent transparent;
+  border-width:23px 33px 23px 0;
+  border-color: transparent hsla(0, 0%, 100%, 0.75) transparent transparent;
   left: 0;
   margin-left: 30px;
 }
 
 #arrow-right {
-  border-width: 30px 0 30px 40px;
-  border-color: transparent transparent transparent #fff;
+  border-width: 23px 0 23px 33px;
+  border-color: transparent transparent transparent hsla(0, 0%, 100%, 0.75);
   right: 0;
   margin-right: 30px;
 }
