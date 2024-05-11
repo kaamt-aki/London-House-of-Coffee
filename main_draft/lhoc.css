@@ -46,7 +46,7 @@ img.primary_logo {
     max-height: 130px;
     width: auto;
     /* background-color: rgba(0, 0, 0, 0.575); deactive */
-    z-index: 100; /* Ensuring the logo is above other content */
+    z-index: 110; /* Ensuring the logo is above other content */
 }
 
 .primary_logo:hover{
@@ -60,7 +60,8 @@ header {
     height: auto;
     padding: 0px 10px 0 10px;
     position: fixed; 
-    z-index: 99;
+    z-index: 100;
+    font-weight: 200;
 }
 
 .nav_container {
@@ -311,7 +312,7 @@ header {
     left: 0; /* Align it to the left */
     width: 100%; /* Cover the entire width of the section */
     height: 25vh; /* Set the height as per your requirement */
-    background-color: rgba(0, 0, 0, 0.775); /* Set the background color */
+    background-color: rgba(0, 0, 0, 0.575); /* Set the background color */
     z-index: 60; /* Ensure it stays behind the content */
 }
 
@@ -323,7 +324,7 @@ header {
     font-size: 30px;
     left: 50%;
     transform: translateX(-50%); /* Move the element back by half of its own width */
-    background-color: rgba(0, 0, 0, 0.577);
+    background-color: rgba(0, 0, 0, 0.575);
     margin-top: 20vh;
   }
 
