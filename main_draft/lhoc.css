@@ -421,6 +421,13 @@ header {
     background-color: rgba(0, 0, 0, 0.575);
 }
 
+.gpapa{
+    width: 77px;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+}
+
 .FGM{
     font-size: 11px;
     display: block;
